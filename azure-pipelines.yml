@@ -4,15 +4,15 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- feature/*
+- none
 
 variables:
   buildConfiguration: 'Release'
     
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'f499d7df-2e03-4214-bc52-b89640f92759'
+  dockerRegistryServiceConnection: 'eaeb1226-f27f-4ca9-b84a-7a9f23e07e1a'
   imageRepository: 'billingback'
-  containerRegistry: 'udemybillling.azurecr.io'
+  containerRegistry: 'buildjava.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   buildTag: '$(Build.BuildId)'
   latestTag: 'latest'

@@ -11,7 +11,7 @@ variables:
     
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'eaeb1226-f27f-4ca9-b84a-7a9f23e07e1a'
-  imageRepository: 'billingback'
+  imageRepository: 'buildjava'
   containerRegistry: 'buildjava.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   buildTag: '$(Build.BuildId)'

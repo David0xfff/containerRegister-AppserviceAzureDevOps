@@ -37,7 +37,6 @@ stages:
          testResultsFiles: '**/surefire-reports/TEST-*.xml'
          mavenAuthenticateFeed: true
          goals: 'package'
-         options: '-X -P azure_artifacts'
 
      - task: CopyFiles@1
        displayName: 'Coppy jar to pipeline artifact'

@@ -114,8 +114,7 @@
             <id>azure_artifacts</id> 
             <repositories>
             <repository>
-  <id>udemy_libraries</id>
-  <url>https://pkgs.dev.azure.com/digitalthinking-udemy/af9749fc-e32a-4010-bc2d-17ce56c14773/_packaging/udemy_libraries/maven/v1</url>
+
   <releases>
     <enabled>true</enabled>
   </releases>

@@ -10,7 +10,7 @@ variables:
   buildConfiguration: 'Release'
     
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'eaeb1226-f27f-4ca9-b84a-7a9f23e07e1a'
+  dockerRegistryServiceConnection: '1d84f3cb-ea92-4133-abbd-7703808324d1'
   imageRepository: 'buildjava'
   containerRegistry: 'buildjava.azurecr.io'
   dockerfilePath: '**/Dockerfile'
